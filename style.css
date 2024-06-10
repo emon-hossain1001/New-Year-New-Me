@@ -149,3 +149,52 @@ main {
     margin-bottom: 24px;
     padding-top: 30px;
 }
+
+/* footer section */
+
+footer {
+    background-color: rgb(21, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+
+.future {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 50%;
+}
+
+.future-title {
+    color: rgb(248, 248, 248);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.future-description {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-title {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+#email {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgb(21, 20, 20);
+    margin-bottom: 16px;
+}
