@@ -129,3 +129,23 @@ main {
     font-size: 20px;
     font-weight: 500;
 }
+/* time section */
+
+.time {
+    background-image: url('./images/watch.png');
+    padding: 20px 60px;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+
+.time-info {
+    width: 50%;
+}
+
+.time-title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    padding-top: 30px;
+}
