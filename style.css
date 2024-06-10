@@ -15,6 +15,7 @@
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .btn-primary:hover {
@@ -42,10 +43,12 @@ header {
     color: rgb(255,255,255);
     font-size: 65px;
     font-weight: 700;
+    margin-bottom: 24px;
 }
 
 .header-info {
     color: rgb(255,255,255);
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
