@@ -93,3 +93,39 @@ main {
     font-weight: 400;
     list-style: none;
 }
+
+/* plan section */
+.plan {
+    margin-bottom: 130px;
+}
+.plans {
+    color: rgb(21, 20, 20);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill-title {
+    color: rgb(21, 20, 20);
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.skill-description {
+    color: rgb(115, 114, 114);
+    font-size: 20px;
+    font-weight: 500;
+}
