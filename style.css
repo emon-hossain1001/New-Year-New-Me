@@ -28,6 +28,7 @@ header {
     background-image: url('./images/banner/banner3.png');
     padding: 200px 130px;
     background-repeat: no-repeat;
+    margin-bottom: 130px;
 }
 
 .header-container {
@@ -51,4 +52,44 @@ header {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 30px;
+}
+
+/* main section  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* profile related styles */
+
+.profile-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.profile-info {
+    max-width: 400px;
+}
+
+.profile-title {
+    color: rgb(21, 20, 20);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.profile-description {
+    color: rgb(68, 67, 67);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.profile-info>ul li {
+    color: rgb(68, 67, 67);
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
 }
